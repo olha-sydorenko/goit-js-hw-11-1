@@ -1,3 +1,29 @@
+.search-form {
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+button {
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: #2e6dcc;
+  color: #ffffff;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 250ms linear;
+}
+
+.search-input {
+  height: 40px;
+  font-size: 18px;
+  padding-left: 15px;
+  border: 1px solid #303030;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -8,12 +34,17 @@
 }
 .photo {
   width: 350px;
-  height: 200px;
+  height: 250px;
 }
 
 .info {
   display: flex;
   gap: 5px;
+}
+
+.load-more {
+  display: block;
+  margin: 0 auto;
 }
 
 .load-more.is-hidden {
